@@ -3,8 +3,13 @@ export default function MenuBar() {
 
   const menus = [
     { name: "File", action: () => alert("File menu clicked") },
-    { name: "Edit", action: () => alert("Edit menu clicked") },,
+    { name: "Edit", action: () => alert("Edit menu clicked") },
+    { name: "Selection", action: () => alert("Selection menu clicked") },
     { name: "View", action: () => alert("View menu clicked") },
+    { name: "Go", action: () => alert("Go menu clicked") },
+    { name: "Run", action: () => alert("Run menu clicked") },
+    { name: "Terminal", action: () => alert("Terminal menu clicked") },
+    { name: "Help", action: () => alert("Help menu clicked") }
   ];
 
   return (

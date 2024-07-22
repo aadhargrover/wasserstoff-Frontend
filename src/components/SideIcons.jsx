@@ -1,6 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faCodeBranch,
+  faCodeCompare,
+  faCodeFork,
+  faCodePullRequest,
   faCopy,
+  faExternalLinkSquare,
+  faRunning,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -8,6 +14,12 @@ export default function SideIcons() {
   const icons = [
     { icon: faCopy, tooltip: "Copy" },
     { icon: faSearch, tooltip: "Search" },
+    { icon: faCodeBranch, tooltip: "Branch" },
+    { icon: faRunning, tooltip: "Run" },
+    { icon: faExternalLinkSquare, tooltip: "External Link" },
+    { icon: faCodeFork, tooltip: "Fork" },
+    { icon: faCodePullRequest, tooltip: "Pull Request" },
+    { icon: faCodeCompare, tooltip: "Compare" },
   ];
 
   return (
